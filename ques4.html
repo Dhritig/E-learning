@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ques 4 </title>
+<style>
+body
+{
+	background-image:url(teal_example.jpg);
+	background-size:cover;
+}
+.label{
+	color:#55EDF4;
+}
+</style>
+</head>
+
+<body >
+<h1 align="center" class="label"> Registration Form </h1>
+<form>
+<table cellspacing="10px" cellpadding="2px" align="center">
+<tr><td><label class="label">User Id* :</label></td>
+<td><input type="text" required min="5" max="12"/></td></tr>
+<tr><td><label class="label">Password* :</label></td>
+<td><input type="text" required min="7" max="12"/></td></tr>
+<tr><td><label class="label">Name* :</label></td>
+<td><input type="text" required min="5" max="12"/></td></tr>
+<tr><td><label class="label">Address :</label></td>
+<td><input type="text" /></td></tr>
+<tr><td><label class="label">Country* :</label></td> 
+<td><select required>
+<option selected>(Please select a country)</option>
+<option>India</option>
+<option>USA</option>
+<option>France</option>
+<option>UK</option></select></td>
+</tr>
+<tr><td><label class="label">ZipCode* :</label></td>
+<td><input type="number" required /></td></tr>
+<tr><td><label class="label">Email* :</label></td>
+<td><input type="email" required/></td></tr>
+<tr><td><label class="label">Sex* :</label></td>
+<td><input type="radio" required name="gender"/><span class="label">Male <input type="radio" required name="gender" />Female </span></td></tr>
+<tr><td><label class="label">Language* :</label></td>
+<td><input type="checkbox"  /><span class="label">English <input type="checkbox"   />Non-English </span></td></tr>
+<tr><td><label class="label">About</label></td><td><textarea rows="5" cols="20"></textarea></td></tr>
+<tr><td></td><td><input type="submit"/></td></tr>
+
+</table>
+</form>
+</body>
+</html>

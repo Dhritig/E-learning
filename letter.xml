@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="letter.css"?>
+<letter>
+<phone>098765432</phone>
+<address>
+<a1>Melvile Dewey</a1>
+<a2>Columbia University</a2>
+<a3>New York, NY</a3>
+</address>
+<greet>
+Dear Melvile,</greet>
+
+
+</letter>

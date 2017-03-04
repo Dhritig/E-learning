@@ -1,0 +1,70 @@
+body
+{
+	background-image:url(img/teal_example.jpg);
+	background-size:cover;
+}
+.header
+{
+	height:100px;
+	width:100%;
+	margin-top:50px;
+
+	text-align:center;
+	
+	
+}
+h1
+{
+	color:#DEC8C8;
+	font-size:40px;
+	top:50px;
+font-family:Arial;
+}
+h2
+{
+	color:#DEC8C8;
+	font-size:80px;
+	font-family:cursive;
+}
+h3
+{
+	color:#DEC8C8;
+	font-size:24px;
+}
+.b1
+{
+	height:100px;
+	width:200px;
+	
+	border-radius:30px;
+float:right;
+	background-color:rgba(222,200,200,1.00);
+	margin-left:40px;
+	font-size:24px;
+	text-decoration:blink;
+}
+.b2
+{
+	height:100px;
+	width:200px;
+	float:right;
+	border-bottom-left-radius:30px;
+	background-color:rgba(222,200,200,1.00);
+	margin-right:40px;
+	font-size:24px;
+	text-decoration:blink;
+}
+
+.center
+{
+	height:150px;
+	width:100%;
+	
+	text-align:center;
+}
+.footer{
+height:250px;
+	width:100%;
+
+text-align:center;
+}
